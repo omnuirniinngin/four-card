@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #fafafa;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  color: #4c4e61;
+}
+
+p {
+  color: #a3a5ae;
+}
+
+h2,
+h3 {
+  color: #4c4e61;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.hero-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.hero-header .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-header h1 {
+  font-weight: 200;
+  font-size: 2.3rem;
+}
+
+@media (max-width: 480px) {
+  .hero-header h1 {
+    font-size: 1.8rem;
+  }
+}
+
+.hero-header h2 {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .hero-header h2 {
+    font-size: 1.8rem;
+  }
+}
+
+.hero-header p {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 15px;
+  width: 35%;
+}
+
+@media (max-width: 800px) {
+  .hero-header p {
+    width: 80%;
+  }
+}
+
+.main-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.main-section .container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-section .container .card {
+  margin: 30px;
+  max-width: 350px;
+  background-color: #fff;
+  -webkit-box-shadow: -1px 12px 15px -4px #e0e0e3;
+  box-shadow: -1px 12px 15px -4px #e0e0e3;
+}
+
+@media (max-width: 800px) {
+  .main-section .container .card {
+    margin: 20px 5px;
+  }
+}
+
+.main-section .container .card-one {
+  border-radius: 4px;
+  border-top: 3px solid #45d3d3;
+}
+
+.main-section .container .card-two {
+  border-radius: 4px;
+  border-top: 3px solid #ea5353;
+}
+
+.main-section .container .card-three {
+  border-radius: 4px;
+  border-top: 3px solid #fcaf4a;
+}
+
+.main-section .container .card-four {
+  border-radius: 4px;
+  border-top: 3px solid #549ef2;
+}
+
+@media (max-width: 1080px) {
+  .main-section .container .card-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-section .container .card-center {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.main-section .container .card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+}
+
+.main-section .container .card-wrapper h3 {
+  font-size: 1.3rem;
+}
+
+.main-section .container .card-wrapper p {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.main-section .container .card-wrapper .logo {
+  margin-top: 20px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+@media (max-width: 1080px) {
+  .main-section .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
